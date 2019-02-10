@@ -7,9 +7,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf lib",
-    "lint": "tslint src test",
-    "lint:fix": "npm run lint -- --fix",
-    "preversion": "yarn run lint && yarn test && yarn clean",
+    "preversion": "yarn test && yarn clean",
     "test": "jest",
     "version": "yarn build",
     "postversion": "git push --follow-tags"
