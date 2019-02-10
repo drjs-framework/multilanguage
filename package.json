@@ -1,7 +1,7 @@
 {
   "name": "@drjs/multilanguage",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "amadormf",
   "license": "MIT",
   "scripts": {
