@@ -1,4 +1,4 @@
-interface TranslateType {
+export default interface TranslateType {
   messages: {
     [key: string]: string
   },

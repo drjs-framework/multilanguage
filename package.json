@@ -6,7 +6,13 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "clean": "rm -rf lib",
+    "lint": "tslint src test",
+    "lint:fix": "npm run lint -- --fix",
+    "preversion": "yarn run lint && yarn test && yarn clean",
+    "test": "jest",
+    "version": "yarn build",
+    "postversion": "git push --follow-tags"
   },
   "devDependencies": {
     "@types/jest": "^23.3.13",
