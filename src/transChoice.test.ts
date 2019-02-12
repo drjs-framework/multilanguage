@@ -1,4 +1,4 @@
-import transChoice from './transChoice';
+import { transChoice } from './transChoice';
 
 describe('transChoice function', () => {
   beforeEach(() => {

@@ -1,5 +1,5 @@
 
-import trans from './trans';
+import { trans } from './trans';
 
 // console.log(Translate);
 describe('test function', () => {

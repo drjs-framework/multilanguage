@@ -1,4 +1,4 @@
-export default interface Language {
+export interface Language {
   slug: string,
   label: string,
 }

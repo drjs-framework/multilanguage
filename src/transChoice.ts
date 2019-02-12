@@ -21,7 +21,7 @@ function replacesTrans(phrase: string, count: string, parameters: {
   return newPhrase;
 }
 
-export default function transChoice(key: string, count: number, parameters = {}): string {
+export function transChoice(key: string, count: number, parameters = {}): string {
   const { messages } = Translate;
   if (typeof count === 'undefined') {
     throw Error('No count parameter send');

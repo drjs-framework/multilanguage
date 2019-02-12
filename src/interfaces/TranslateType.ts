@@ -1,8 +1,8 @@
-export default interface TranslateType {
+export interface TranslateType {
   messages: {
     [key: string]: string
   },
   locale: string,
 }
 
-declare var Translate: TranslateType;
+export declare var Translate: TranslateType;

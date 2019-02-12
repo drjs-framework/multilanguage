@@ -1,4 +1,4 @@
-export default function trans(key: string, replaces: {
+export function trans(key: string, replaces: {
   [key:string]: string
 }= {}): string {
   var { messages } = Translate;
